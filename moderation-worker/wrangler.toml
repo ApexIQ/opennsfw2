@@ -1,0 +1,9 @@
+name = "moderation-worker"
+main = "src/index.js"
+compatibility_date = "2024-04-01"
+
+# Bindings
+# Set these in Cloudflare Dashboard or via wrangler secret put
+[vars]
+CONTAINER_URL = "https://your-container-service-url.com"
+API_KEY = "your-secure-api-key"

@@ -6,7 +6,7 @@ venv/
 build/
 data/
 tmp/
-scripts/
+
 weights/
 dist/
 opennsfw2.egg-info/
